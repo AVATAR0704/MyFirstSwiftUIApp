@@ -13,7 +13,7 @@ import SwiftUI
 struct MyFirstSwiftUIAppApp: App {
     var body: some Scene {
         WindowGroup {
-            SwiftUIBootcamp()
+            IF_ELSE_eBootCamp()
         }
     }
 }

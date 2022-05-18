@@ -7,20 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		782B37FF28321B88007AB5CE /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782B37FE28321B87007AB5CE /* Transition.swift */; };
+		782FEC592832C22000B5C96B /* Sheets_Fullscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FEC582832C22000B5C96B /* Sheets_Fullscreen.swift */; };
 		78482AB4281D5E03005A7A33 /* SwiftUIBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78482AB3281D5E02005A7A33 /* SwiftUIBootcamp.swift */; };
 		78689D1A281B0DE600F48F71 /* MyFirstSwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78689D19281B0DE600F48F71 /* MyFirstSwiftUIAppApp.swift */; };
 		78689D1E281B0DEC00F48F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78689D1D281B0DEC00F48F71 /* Assets.xcassets */; };
 		78689D21281B0DEC00F48F71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78689D20281B0DEC00F48F71 /* Preview Assets.xcassets */; };
-		78D6B257281BF6240045DFF7 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D6B256281BF6240045DFF7 /* SecondScreen.swift */; };
+		7869C4EA2834DB0E00EA2765 /* PopopScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7869C4E92834DB0E00EA2765 /* PopopScreen.swift */; };
+		787AC6E5282FB41A00F592A7 /* TernaryOPerators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6E4282FB41A00F592A7 /* TernaryOPerators.swift */; };
+		787AC6E7282FB7B100F592A7 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787AC6E6282FB7B100F592A7 /* Animations.swift */; };
+		7889C832282E68750003A9AB /* BindingBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7889C831282E68750003A9AB /* BindingBootCamp.swift */; };
+		7889C863282EAA0D0003A9AB /* IF_ELSE_eBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7889C862282EAA0D0003A9AB /* IF_ELSE_eBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		782B37FE28321B87007AB5CE /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		782FEC582832C22000B5C96B /* Sheets_Fullscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets_Fullscreen.swift; sourceTree = "<group>"; };
 		78482AB3281D5E02005A7A33 /* SwiftUIBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcamp.swift; sourceTree = "<group>"; };
 		78689D16281B0DE600F48F71 /* MyFirstSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78689D19281B0DE600F48F71 /* MyFirstSwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstSwiftUIAppApp.swift; sourceTree = "<group>"; };
 		78689D1D281B0DEC00F48F71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78689D20281B0DEC00F48F71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		78D6B256281BF6240045DFF7 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		7869C4E92834DB0E00EA2765 /* PopopScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopopScreen.swift; sourceTree = "<group>"; };
+		787AC6E4282FB41A00F592A7 /* TernaryOPerators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOPerators.swift; sourceTree = "<group>"; };
+		787AC6E6282FB7B100F592A7 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		7889C831282E68750003A9AB /* BindingBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootCamp.swift; sourceTree = "<group>"; };
+		7889C862282EAA0D0003A9AB /* IF_ELSE_eBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IF_ELSE_eBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				78689D19281B0DE600F48F71 /* MyFirstSwiftUIAppApp.swift */,
-				78D6B256281BF6240045DFF7 /* SecondScreen.swift */,
+				7889C830282E683E0003A9AB /* SviftUIBootCamp */,
 				78689D1D281B0DEC00F48F71 /* Assets.xcassets */,
 				78689D1F281B0DEC00F48F71 /* Preview Content */,
-				78482AB3281D5E02005A7A33 /* SwiftUIBootcamp.swift */,
 			);
 			path = MyFirstSwiftUIApp;
 			sourceTree = "<group>";
@@ -68,6 +79,21 @@
 				78689D20281B0DEC00F48F71 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7889C830282E683E0003A9AB /* SviftUIBootCamp */ = {
+			isa = PBXGroup;
+			children = (
+				78482AB3281D5E02005A7A33 /* SwiftUIBootcamp.swift */,
+				7889C831282E68750003A9AB /* BindingBootCamp.swift */,
+				7889C862282EAA0D0003A9AB /* IF_ELSE_eBootCamp.swift */,
+				787AC6E6282FB7B100F592A7 /* Animations.swift */,
+				787AC6E4282FB41A00F592A7 /* TernaryOPerators.swift */,
+				782B37FE28321B87007AB5CE /* Transition.swift */,
+				782FEC582832C22000B5C96B /* Sheets_Fullscreen.swift */,
+				7869C4E92834DB0E00EA2765 /* PopopScreen.swift */,
+			);
+			path = SviftUIBootCamp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +166,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				782FEC592832C22000B5C96B /* Sheets_Fullscreen.swift in Sources */,
+				7869C4EA2834DB0E00EA2765 /* PopopScreen.swift in Sources */,
+				782B37FF28321B88007AB5CE /* Transition.swift in Sources */,
+				7889C832282E68750003A9AB /* BindingBootCamp.swift in Sources */,
 				78482AB4281D5E03005A7A33 /* SwiftUIBootcamp.swift in Sources */,
+				787AC6E7282FB7B100F592A7 /* Animations.swift in Sources */,
+				7889C863282EAA0D0003A9AB /* IF_ELSE_eBootCamp.swift in Sources */,
 				78689D1A281B0DE600F48F71 /* MyFirstSwiftUIAppApp.swift in Sources */,
-				78D6B257281BF6240045DFF7 /* SecondScreen.swift in Sources */,
+				787AC6E5282FB41A00F592A7 /* TernaryOPerators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +317,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Samandar.MyFirstSwiftUIApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -315,7 +347,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Samandar.MyFirstSwiftUIApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
